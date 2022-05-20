@@ -1,0 +1,929 @@
+@media (max-width: 1440px) {
+    html {
+        font-size: 15px;
+    }
+
+    .home-page {
+        width: 100%;
+        height: 70vh;
+        position: relative;
+    }
+
+    /**page-2**/
+    .secend-page .container .cards .card {
+        margin: 3em;
+    }
+
+    /**page-3**/
+    .page-3 {
+        height: 220vh;
+
+    }
+
+    .page-3 .container .cards {
+        margin-top: 0em;
+    }
+
+    /**page-3-end**/
+    .page-3-end {
+        height: 40vh;
+    }
+
+    /**page-offer**/
+    .page-offer {
+        height: 60vh;
+    }
+
+    /**footer-page**/
+    .footer-page {
+        height: 35em;
+    }
+
+    .footer-page .container {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .footer-page .container .contact {
+        margin-left: -2.5em;
+
+    }
+
+    .footer-page .container .logo {
+        width: 35em;
+    }
+
+    .footer-page .container .logo .image {
+        position: absolute;
+        animation: move-logo-footer 4s infinite linear;
+
+    }
+
+    @keyframes move-logo-footer {
+        0% {
+            transform: translateY(0%);
+        }
+
+        25% {
+            transform: translatex(30%);
+        }
+
+        75% {
+            transform: translatex(-30%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 13px;
+    }
+
+    .page-3 {
+        height: 190vh;
+    }
+
+    /**page-2**/
+    .secend-page .container .cards .card {
+        margin: 5em;
+    }
+
+    /**page-offer**/
+    .page-offer {
+        height: 50vh;
+    }
+
+    /**footer-page**/
+    .footer-page {
+        height: 60em;
+    }
+
+    .footer-page .container {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer-page .container .contact {
+        margin-left: -2.5em;
+
+
+    }
+
+    .footer-page .container .map {
+        margin-bottom: 2em;
+        width: 60em;
+    }
+
+    .footer-page .container .logo {
+        width: 35em;
+    }
+
+    .footer-page .container .logo .image {
+        position: absolute;
+        animation: move-logo-footer 10s infinite linear;
+
+    }
+
+
+    @keyframes move-logo-footer {
+        0% {
+            transform: translateY(0%);
+        }
+
+        25% {
+            transform: translatex(60%);
+        }
+
+        75% {
+            transform: translatex(-60%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 13px;
+    }
+
+    /**page-2**/
+    .secend-page .container .cards .card {
+        margin: 5em;
+
+    }
+
+    .page-3 {
+        height: 250vh;
+
+    }
+
+    /**page-3-end**/
+    .page-3-end {
+        height: 60vh;
+
+
+    }
+
+    /**page-offer**/
+    .page-offer {
+        height: 50vh;
+    }
+
+    /**footer-page**/
+    .footer-page {
+        height: 60em;
+    }
+
+    .footer-page .container {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer-page .container .contact {
+        margin-left: -2.5em;
+
+
+    }
+
+    .footer-page .container .map {
+        margin-bottom: 2em;
+        width: 60em;
+    }
+
+    .footer-page .container .logo {
+        width: 35em;
+    }
+
+    .footer-page .container .logo .image {
+        position: absolute;
+        animation: move-logo-footer 10s infinite linear;
+
+    }
+
+    @keyframes move-logo-footer {
+        0% {
+            transform: translateY(0%);
+        }
+
+        25% {
+            transform: translatex(60%);
+        }
+
+        75% {
+            transform: translatex(-60%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    html {
+        font-size: 13px;
+    }
+
+
+    .home-page .container .title {
+        align-self: flex-start;
+        width: 80%;
+        margin: 8em 1em;
+
+    }
+
+    .home-page .container .title p {
+        font-size: 1.3em;
+    }
+
+    .home-page .container .image {
+        width: 25em;
+        height: 40em;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 0 15px black, -8px 15px 25px rgb(8, 102, 131);
+        border-radius: 2em 7em;
+        align-self: flex-end;
+        margin-right: 2em;
+    }
+
+    .secend-page {
+        height: 80vh;
+    }
+    
+    .secend-page .cards{
+       width: 80% ;
+     
+    }
+    .secend-page .cards .card{
+        margin: auto 15em;
+    }
+    /**page-2**/
+    .secend-page .container .cards .card {
+        margin: 5em;
+
+    }
+
+    .page-3 {
+        height: 250vh;
+
+    }
+
+    /**page-3-end**/
+    .page-3-end {
+        height: 60vh;
+
+
+    }
+
+    /**page-offer**/
+    .page-offer {
+        height: 80vh;
+    }
+    .page-offer .cards{
+        flex-flow: row wrap;
+    }
+    .page-offer .contianer .cards .card:nth-child(3){
+        margin-top: 5em;
+    }
+
+    /**footer-page**/
+    .footer-page {
+        height: 83em;
+    }
+
+    .footer-page .container {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer-page .container .contact {
+        margin-left: 2em;
+
+
+    }
+
+    .footer-page .container .map {
+        margin-bottom: 2em;
+        width: 60em;
+    }
+
+    .footer-page .container .logo {
+        width: 35em;
+    }
+
+    .footer-page .container .logo .image {
+        position: absolute;
+        animation: move-logo-footer 10s infinite linear;
+
+    }
+
+    @keyframes move-logo-footer {
+        0% {
+            transform: translateY(0%);
+        }
+
+        25% {
+            transform: translatex(60%);
+        }
+
+        75% {
+            transform: translatex(-60%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+
+
+    .home-page .container .title {
+        align-self: flex-start;
+        width: 80%;
+        margin: 8em 1em;
+
+    }
+    .home-page{
+        height: 90vh;
+      
+    }
+    .home-page .container{
+        height: 90%;
+   
+        
+    }
+    .home-page .container .title p {
+        font-size: 1.3em;
+    }
+
+    .home-page .container .image {
+        width: 25em;
+        height: 40em;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 0 15px black, -8px 15px 25px rgb(8, 102, 131);
+        border-radius: 2em 7em;
+        align-self: center;
+        margin-top: -40em;
+
+    }
+
+    .secend-page {
+        height: 80vh;
+    
+    }
+    
+    .secend-page .cards{
+       width: 80% ;
+     
+    }
+    .secend-page .cards .card{
+        margin: auto 15em;
+    }
+    /**page-2**/
+    .secend-page .container .cards .card {
+        margin: 5em;
+
+    }
+
+    .page-3 {
+        height: 450vh;
+      
+
+    }
+
+    /**page-3-end**/
+    .page-3-end {
+        height: 70vh;
+    
+    }
+
+    /**page-offer**/
+    .page-offer {
+        height: 90vh;
+     
+    }
+    .page-offer .cards{
+        flex-flow: row wrap;
+    }
+    .page-offer .contianer .cards .card:nth-child(3){
+        margin-top: 5em;
+    }
+
+    /**footer-page**/
+    .footer-page {
+        height: 83em;
+    }
+
+    .footer-page .container {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer-page .container .contact {
+        margin-left: 2em;
+
+
+    }
+
+    .footer-page .container .map {
+        margin-bottom: 2em;
+        width: 60em;
+    }
+
+    .footer-page .container .logo {
+        width: 35em;
+    }
+
+    .footer-page .container .logo .image {
+        position: absolute;
+        animation: move-logo-footer 10s infinite linear;
+
+    }
+
+    @keyframes move-logo-footer {
+        0% {
+            transform: translateY(0%);
+        }
+
+        25% {
+            transform: translatex(60%);
+        }
+
+        75% {
+            transform: translatex(-60%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    html {
+        font-size: 13px;
+    }
+
+    .home-page header{
+        height: 15em;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em 3em;
+    }
+    .home-page header nav{
+    width: 100%;
+    }
+    .home-page .container .title {
+        align-self: flex-start;
+        width: 80%;
+        margin: 8em 1em;
+
+    }
+    .home-page{
+        height: 90vh;
+      
+    }
+    .home-page .container{
+        height: 90%;
+   
+        
+    }
+    .home-page .container .title p {
+        font-size: 1.3em;
+    }
+
+    .home-page .container .image {
+        width: 25em;
+        height: 40em;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 0 15px black, -8px 15px 25px rgb(8, 102, 131);
+        border-radius: 2em 7em;
+        align-self: center;
+        margin-top: -40em;
+
+    }
+
+    .secend-page {
+        height: 200vh;
+
+    
+    }
+    
+    .secend-page .container .cards{
+       width: 80% ;
+       height: 200em;
+ 
+      
+    
+    }
+    .secend-page .container .cards .card{
+        width: 15em;
+        height: 18em;
+    }
+    /**page-2**/
+    .secend-page .container .cards .card {
+        margin: 5em;
+
+    }
+
+    .page-3 {
+        height: 500vh;
+     
+      
+
+    }
+    .page-3 .container .cards-2{
+        height: 300em;
+    }
+    .page-3 .container .cards-2 .card{
+        margin-top: -2em;
+    }
+
+    /**page-3-end**/
+    .page-3-end {
+        height: 70vh;
+
+    }
+
+    /**page-offer**/
+    .page-offer {
+        height: 140vh;
+       
+     
+    }
+    .page-offer .cards{
+        flex-flow: row wrap;
+
+    }
+    .page-offer .cards .card{
+        margin-bottom: 5em;
+    }
+    .page-offer .contianer .cards .card:nth-child(3){
+        margin-top: 7em;
+    }
+
+    /**footer-page**/
+    .footer-page {
+        height: 83em;
+    }
+
+    .footer-page .container {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer-page .container .contact {
+        margin-left: 2em;
+
+
+    }
+
+    .footer-page .container .map {
+        margin-bottom: 2em;
+        width: 60em;
+    }
+
+    .footer-page .container .logo {
+        width: 35em;
+    }
+
+    .footer-page .container .logo .image {
+        position: absolute;
+        animation: move-logo-footer 10s infinite linear;
+
+    }
+    @keyframes move-logo-footer {
+        0% {
+            transform: translateY(0%);
+        }
+
+        25% {
+            transform: translatex(60%);
+        }
+
+        75% {
+            transform: translatex(-60%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}
+
+
+
+@media (max-width:480px){
+    html{
+        font-size: 13px;
+    }
+        /**page-3-end**/
+        .page-3-end .box .s-box {
+            width: 34em;
+            height: 25em;
+     
+        }
+  
+        @keyframes move-logo-footer {
+            0% {
+                transform: translateY(0%);
+            }
+    
+            25% {
+                transform: translatex(40%);
+            }
+    
+            75% {
+                transform: translatex(-40%);
+            }
+    
+            100% {
+                transform: translateY(0%);
+            }
+        }
+}
+
+
+@media (max-width: 400px) {
+    html {
+        font-size: 13px;
+    }
+    .home-page {
+        width: 100%;
+        height: 160vh;
+      
+    }
+    .home-page .container{
+    text-align: center;
+
+    }
+    .home-page header{
+        height: 17em;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5em 0;
+    }
+    .home-page header nav{
+    width: 100%;
+    padding: 0 0.5em;
+    }
+    .home-page .container .title {
+        align-self: flex-start;
+        width: 80%;
+        margin: 8em 1em;
+        
+
+    }
+
+    .home-page .container .title p {
+        font-size: 1.3em;
+    }
+
+    .home-page .container .image {
+        width: 22em;
+        height: 35em;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 0 15px black, -8px 15px 25px rgb(8, 102, 131);
+        border-radius: 2em 7em;
+        align-self: center;
+        margin: auto;
+        margin-top: -20em;
+       
+
+    }
+    .secend-page .title{
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em;
+        padding-left: 2em;
+    }
+
+    .secend-page {
+        height: 350vh;
+        text-align: center;
+    
+    }
+    
+    .secend-page .container .cards{
+       width: 100% ;
+       height: 150em;
+    
+    }
+    .secend-page .container .cards .card{
+        width: 13em;
+        height: 15em;
+        margin: 5em 0;
+     
+    }
+
+    .page-3 {
+        height: 930vh;
+        margin-top: -40em;
+     
+    }
+    .page-3 .title{ 
+        text-align: center;
+        font-size: 0.6em;
+        margin: 0;
+    }
+    .page-3 .title p{
+        font-size: 2em;
+    }
+    
+    .page-3 .container .title-2{
+        width:fit-content;
+        text-align: center;
+        font-size: 0.6em;
+        margin: auto;
+
+    }
+
+    .page-3 .container .cards-2{
+        height: 300em;
+    }
+    .page-3 .container .cards-2 .card{
+        margin-top: -2em;
+    }
+
+    .page-3 .container .cards-2 .card.last-card {
+        width: 40em;
+        height: 23em;
+        padding: 0 1.5em;
+        position: relative;
+        margin-top: 4em;
+        text-align: center;
+    }
+    
+    .page-3 .container .cards-2 .card.last-card h2 {
+        position: absolute;
+        font-size: 3.5em;
+        left: 8%;
+        opacity: 0.7;
+        font-style: italic;
+    
+    }
+    
+    .page-3 .container .cards-2 .card.last-card p {
+        position: absolute;
+        font-size: 1.15em;
+        line-height: 1.7;
+        width: 15em;
+        left: 1em;
+        top: 6.5em;
+        color: white;
+       
+    }
+
+    .page-3 .container .links-t {
+        width: 100%;
+        margin-top: 20em;
+        text-align: right;
+    }
+
+
+
+    /**page-3-end**/
+    .page-3-end {
+        height: 180vh;
+ 
+    }
+    .page-3-end .box{
+     width: 90%;
+    margin: auto;
+    }
+    .page-3-end .box .s-box {
+        height: 30em;
+    }
+    .page-3-end .box .s-box .info {
+        width: 90%;
+        height: 50%;
+        text-align: right;
+        margin-left: 1em;
+        position: relative;
+    }
+    /**page-offer**/
+    .page-offer {
+        height: 230vh;
+    }
+    .page-offer .cards{
+        flex-flow: row wrap;
+        padding: 0 1em;
+    }
+    .page-offer .cards .card{
+        width: 20em;
+        height: 40em;
+
+    }
+    .page-offer .contianer .cards .card:nth-child(3){
+        margin-top: 2em;
+        transform: scale(1);
+    }
+
+    /**footer-page**/
+    .footer-page {
+        height: 83em;
+    }
+
+    .footer-page .container {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer-page .container .contact {
+        margin-left: 0em;
+
+
+    }
+
+    .footer-page .container .map {
+        margin-bottom: 2em;
+        width: 60em;
+    }
+
+    .footer-page .container .logo {
+        width: 35em;
+    }
+
+    .footer-page .container .logo .image {
+        position: absolute;
+        animation: move-logo-footer 5s infinite linear;
+
+    }
+    @keyframes move-logo-footer {
+        0% {
+            transform: translateY(0%);
+        }
+
+        25% {
+            transform: translatey(-60%);
+        }
+
+        75% {
+            transform: translatey(-60%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}

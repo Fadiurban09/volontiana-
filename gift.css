@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Artifika&family=Cairo:wght@200;600&family=Caveat:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Courgette&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Righteous&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Secular+One&family=Shadows+Into+Light&family=Varela+Round&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Fira Sans;
+    overflow-x: hidden;
+}
+
+.parte-1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.all-parte {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.all-parte::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    clip-path: circle(5% at 50% 51%);
+    transform: scale(0);
+    transform-origin: top left;
+    transition: 2s;
+
+}
+
+.all-parte:hover:after {
+    background-color: rgb(8, 102, 131);
+    clip-path: circle(75% at 50% 50%);
+    transform: scale(1);
+
+
+}
+
+.parte-1 .container {
+    width: 100%;
+    height: 100%
+}
+
+.parte-1 .container .title {
+    width: fit-content;
+    padding: 1em 5em;
+
+}
+
+.parte-1 .container .title h2 {
+    font-size: 3em;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.parte-1 .container .title h2 span {
+    color: rgb(8, 102, 131);
+    font-size: 1.3em;
+    transition: color 1s;
+}
+
+.all-parte:hover .parte-1 .container .title h2 span {
+    color: white;
+
+}
+
+.parte-1 .container .title h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: rgb(8, 102, 131);
+    transition: background-color 1s;
+}
+
+.all-parte:hover .parte-1 .container .title h2::after {
+    background-color: white;
+}
+
+.parte-1 .container .cards {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    position: relative;
+    margin: auto;
+}
+
+.parte-1 .container .cards .card {
+    width: 25em;
+    height: 35em;
+    box-shadow: 0 0 15px black;
+    background-color: white;
+    overflow: hidden;
+    padding: 1.5em 0;
+    border-radius: 5em 1.5em;
+    position: relative;
+    z-index: 1;
+
+}
+
+.parte-1 .container .cards .card::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    clip-path: circle(5% at 50% 50%);
+    transform: scale(0);
+    transform-origin: top left;
+    transition: 1s;
+}
+
+.parte-1 .container .cards .card:hover:after {
+    clip-path: circle(75% at 50% 50%);
+    transform: scale(1);
+}
+
+.all-parte .parte-1 .container .cards .card:nth-child(3)::after {
+    transition: 2s;
+}
+
+.all-parte:hover .parte-1 .container .cards .card:nth-child(3):after {
+    clip-path: circle(75% at 50% 50%);
+    transform: scale(1);
+}
+
+.all-parte .parte-1 .container .cards .card:nth-child(3) {
+    transition: transform 1.2s;
+}
+
+.all-parte:hover .parte-1 .container .cards .card:nth-child(3) {
+    transform: scale(1.2);
+}
+
+.parte-1 .container .cards .card .image {
+    width: 90%;
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5em 1.5em;
+    margin: auto;
+    z-index: 1;
+}
+
+.parte-1 .container .cards .card .image .img {
+    width: 100%;
+    height: 100%;
+}
+
+.parte-1 .container .cards .card .image .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.parte-1 .container .cards .card .info {
+    margin: 1.2em 0;
+    padding: 0em;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parte-1 .container .cards .card .info p {
+    width: 6em;
+    font-size: 1.4em;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transition: color 0.9s;
+}
+
+.parte-1 .container .cards .card:hover .info p {
+    color: white;
+    z-index: 1;
+}
+
+.parte-1 .container .cards .card .info p span {
+    position: relative;
+}
+
+.parte-1 .container .cards .card .info p span::after {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: -20%;
+    width: 140%;
+    height: 0.15em;
+    background-color: rgb(8, 102, 131);
+    transform: rotate(15deg);
+}
+
+.parte-1 .container .cards .card .info p strong {
+    transform: scale(1.2);
+}
+
+.all-parte:hover .parte-1 .container .cards .card:nth-child(3) .info p {
+    color: white;
+    z-index: 1;
+}
+
+.parte-1 .container .cards .card .info .link a {
+    display: inline-block;
+    position: relative;
+    font-size: 1.6em;
+    padding: 0.2em 0.7em;
+    border-radius: 1em 0.5em;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.parte-1 .container .cards .card .info .link a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(8, 102, 131);
+    z-index: -1;
+    transition: width 1.2s;
+}
+
+.parte-1 .container .cards .card:hover .info .link a::after {
+    width: 100%;
+}
+
+.all-parte:hover .parte-1 .container .cards .card:nth-child(3) .info .link a::after {
+    width: 100%;
+}
+
+.parte-2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    margin-top: 4em;
+}
+
+.parte-2 .title {
+    width: 100%;
+    text-align: center;
+}
+
+.parte-2 .title h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+
+.parte-2 .all-box {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(8, 9%);
+    grid-template-rows: repeat(9, 7%);
+    justify-content: center;
+    gap:  2em;
+    position: relative;
+    overflow: hidden;
+}
+.parte-2 .all-box .box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6em 1.5em;
+}
+
+.parte-2 .all-box .box .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+   
+   
+}
+
+.parte-2 .all-box .box .image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+.parte-2 .all-box .box .info{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-color:rgba(8, 102, 131, 0.623);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 100%;
+     transition: 1s;
+
+}
+
+.parte-2 .all-box .box:hover .info{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parte-2 .all-box .box .info a {
+    width: 100%;
+    display: inline-block;
+    font-size: 2em;
+    color: white;
+    padding: 0.2em 0.7em;
+    text-transform: capitalize;
+   
+}
+
+.parte-2 .all-box .box:first-child {
+    grid-column: span 3;
+    grid-row: span 9;
+}
+
+.parte-2 .all-box .box:nth-child(2) {
+    grid-column: span 5;
+    grid-row: span 4;
+}
+
+.parte-2 .all-box .box:nth-child(3) {
+    grid-column: span 3;
+    grid-row: span 5;
+}
+
+.parte-2 .all-box .box:nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.parte-2 .all-box .box:last-child {
+    grid-column: span 2;
+    grid-row: span 2;
+
+}
